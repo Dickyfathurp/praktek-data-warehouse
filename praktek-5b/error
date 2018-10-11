@@ -1,0 +1,11 @@
+WARNING: Using java from path
+DEBUG: _PENTAHO_JAVA_HOME=
+DEBUG: _PENTAHO_JAVA=java.exe
+C:\Windows\System32
+The system cannot find the path specified.
+The system cannot find the path specified.
+'java -version 2>&1|C:\Windows\system32\find /C "64-Bit"' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\System32>"java.exe"  "-Xms1024m" "-Xmx2048m" "-XX:MaxPermSize=256m" "-Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2" "-Djava.library.path=libswt\win32" "-DKETTLE_HOME=" "-DKETTLE_REPOSITORY=" "-DKETTLE_USER=" "-DKETTLE_PASSWORD=" "-DKETTLE_PLUGIN_PACKAGES=" "-DKETTLE_LOG_SIZE_LIMIT=" "-DKETTLE_JNDI_ROOT=" -jar launcher\pentaho-application-launcher-7.1.0.0-12.jar -lib ..\libswt\win32  /level:Debug 
+Error: Unable to access jarfile launcher\pentaho-application-launcher-7.1.0.0-12.jar
